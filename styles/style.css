@@ -67,3 +67,15 @@ nav > ul li{
     gap:100px;
     margin-bottom: 70px;
 }
+/* sponsor section style */
+.sponsor{
+    width: 1110px;
+    height: 110px;
+    margin:0px auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.sponsor img{
+    margin-right: 40px;
+    margin-top: 40px;
+}

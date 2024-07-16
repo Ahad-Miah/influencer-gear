@@ -69,13 +69,122 @@ nav > ul li{
 }
 /* sponsor section style */
 .sponsor{
-    width: 1110px;
-    height: 110px;
+    max-width: 1410px;
+    /* border:2px solid red; */
     margin:0px auto;
+    display:flex;
+    gap:110px;
+    justify-content: center;
+    margin-bottom: 100px;
     text-align: center;
+}
+.collection-section-container{
+    max-width: 1250px;
+    margin:0px auto;
     margin-bottom: 100px;
 }
-.sponsor img{
-    margin-right: 40px;
-    margin-top: 40px;
+.collection-section-container .more p{
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+}
+.collection-container{
+    max-width: 1247px;
+    /* height: 1662px; */
+    margin:0px auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    padding-left: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.collection-heading h1{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.box-container{
+    max-width: 390px;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+.box-container h3{
+    color: rgb(24, 25, 31);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.box-container h6{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.box-container p{
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* Featured container styles */
+.featured-container{
+    max-width: 1247px;
+    margin:0px auto;
+    border:2px solid red;
+}
+/* responsive */
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+        gap:20px;
+        justify-content: center;
+        align-items:center;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+        gap:10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .sponsor{
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        gap:20px;
+    }
+    .collection-section-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .collection-section-container .more p{
+        text-align: center;
+    }
+    .collection-container{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

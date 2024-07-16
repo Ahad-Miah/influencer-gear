@@ -7,10 +7,11 @@
 body{
     font-family: Poppins;
 }
+
 /* Nav section styles */
 nav{
     display:flex;
-    gap:490px;
+    gap:420px;
     justify-content: space-around;
     margin-top: 55px;
 }
@@ -28,4 +29,41 @@ nav ul{
 }
 nav > ul li{
     list-style: none;
+}
+/* banner section styles */
+.banner-content{
+    margin-top: 75px;
+}
+.banner-content h1{
+    color: rgb(58, 58, 58);
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.banner-content p{
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.banner-content button{
+    width: 196px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 41px;
+    background-color: rgb(224, 44, 109);
+}
+.banner-image{
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+}
+.banner-section{
+    display:flex;
+    margin-top: 70px;
+    justify-content: space-around;
+    gap:100px;
+    margin-bottom: 70px;
 }
